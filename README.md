@@ -25,8 +25,13 @@ Sisteminizde Python 3'ün ve ekran sunucunuza uygun pano araçlarının kurulu o
 
 **Arch Linux / CachyOS tabanlı sistemler için:**
 ```bash
-# Sistem bağımlılıklarını kurun (Pano yönetimi için)
+ # Sistem bağımlılıklarını kurun (Pano yönetimi için) 
+
 sudo pacman -S wl-clipboard xclip --needed --noconfirm
 
-# Gerekli Python kütüphanelerini yükleyin
-pip install cryptography rich pyperclip --break-system-packages
+ # Gerekli Python kütüphanelerini yükleyin
+ pip install cryptography rich pyperclip --break-system-packages 
+```
+### Çalıştırma
+```bash
+python passmanager.py
